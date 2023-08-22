@@ -1,18 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // This is created by Ankita
-int main(){
-    cout<<"hello!";
+int main()
+{
+    cout << "hello!";
     return 0;
     /*this
-    is 
+    is
     wonderful
-    multi 
+    multi
     line
     comment.*/
-
 }
-
-
-

@@ -1,15 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int glo=6;
-void sum(){
-    int a =7;
-    cout<<glo;
-}
-int main(){
-    int glo=9;
-    glo=56;
+void sum();
+int a; // for global variable value will be 0
+int main()
+{
     sum();
-    cout<<glo;
-   
+    int a;
     return 0;
+}
+void sum()
+{
+    // int a; for local variable any garbage value
+    cout << a;
 }

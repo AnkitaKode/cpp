@@ -1,13 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
 
-  enum meal{ breakfast , lunch , dinner};
+  enum meal
+  {
+    breakfast,
+    lunch,
+    dinner
+  };
   meal m1 = breakfast;
-  cout<<breakfast;
+  cout << breakfast;
   //  cout<<lunch;
-    cout<<dinner;
-    cout<<lunch;
+  cout << dinner;
+  cout << lunch;
 
-   return 0;
+  return 0;
 }
