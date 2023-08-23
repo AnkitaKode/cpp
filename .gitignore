@@ -3,3 +3,4 @@ output/r.exe
 *.exe
 tempCodeRunnerFile.cpp
 .vscode/settings.json
+output/.vscode/settings.json
