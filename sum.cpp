@@ -1,13 +1,18 @@
-#include<iostream>
- using namespace std;
-
+#include <iostream>
+using namespace std;
+/*::this is scope resolution Operator*/
+int c = 50;
 int main()
 {
-    int num1, num2;
-  cout<<"Enter the value of num1:\n"; //<< is called insertion operator
-    cin>>num1;
-    cout<<"Enter the value of num2:\n";
-    cin>>num2;
-    cout<<"The sum is:"<< num1+num2;
+    int a, b, c;
+    cout << "Enter the value of a::" << endl;
+    cin >> a;
+    cout << "Enter the value of b:" << endl;
+    cin >> b;
+    c = a + b;
+
+    cout << "The sum is :" << c << endl;
+    cout << "The global c is:" << ::c;
+
     return 0;
 }
