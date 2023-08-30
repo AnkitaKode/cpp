@@ -5,6 +5,7 @@
 // Existing class is called Base class
 // New class which is inherited is called Derived class
 using namespace std;
+
 class Person
 {
 public:
@@ -14,11 +15,15 @@ public:
 
     void setage(int iage) { age = iage; }
 };
+
 class Student : public Person
 {
 public:
     int id;
-    void SetId(int iid) { id = iid; }
+    void SetId(int iid)
+    {
+        id = iid;
+    }
 
     void introduce()
     {
