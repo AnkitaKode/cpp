@@ -1,5 +1,7 @@
-output/r.exe
 *.exe
+*.txt
+*.bin
+output/r.exe
 tempCodeRunnerFile.cpp
 .vscode/settings.json
 output/.vscode/settings.json
