@@ -10,7 +10,7 @@ public:
 
 void person::introduce()
 {
-    cout << "hey from person " << endl;
+    cout << "hey from person" << endl;
 }
 
 class student : public person
@@ -18,7 +18,7 @@ class student : public person
 public:
     void introduce()
     {
-        cout << "hi i am a student " << endl;
+        cout << "Hi I am a student " << endl;
         person::introduce();
     }
 };
