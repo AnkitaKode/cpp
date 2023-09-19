@@ -14,6 +14,7 @@ int main()
 
     cout << "capacity: " << v.capacity() << endl;
     cout << "size: " << v.size() << endl;
+    cout << "max size: " << v.max_size() << endl;
     cout << "Element at 2nd index: " << v.at(2) << endl;
     cout << "Finding 6->" << binary_search(v.begin(), v.end(), 6) << endl;
 
@@ -41,6 +42,13 @@ int main()
     {
         cout << i << " ";
     }
+    v.insert(v.begin() + 2, 91);
+    cout << endl;
+    cout << "v at 2 " << v[2] << endl;
+    cout << " size = " << v.size() << endl;
+
+    v.pop_back();
+    cout << "After pop back size = " << v.size();
 
     return 0;
 }
