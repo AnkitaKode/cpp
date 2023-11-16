@@ -18,6 +18,7 @@ int main()
     display(anki);
     return 0;
 }
+
 void display(student a)
 {
     cout << a.rollno << endl;
@@ -25,6 +26,7 @@ void display(student a)
     cout << a.age << endl;
     a.rollno = 00;
 }
+
 void show(student *a)
 {
     cout << a->rollno << endl;

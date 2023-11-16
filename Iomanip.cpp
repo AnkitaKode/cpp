@@ -5,7 +5,7 @@ using namespace std;
 
 ostream &rightarrow(ostream &output)
 {
-    output << "cool name dude -->";
+    output << "cool name dude --> ";
     return output;
 }
 
