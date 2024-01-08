@@ -3,19 +3,21 @@ using namespace std;
 
 int main()
 {
-    int arr[4][3];
 
-    for (int i = 0; i < 4; i++)
+    int arr[3][5];
+
+    for (int i = 0; i < 3; i++)
     {
-
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < 5; j++)
         {
-            arr[i][j] = i + j;
+            cout << "Enter the number at [" << i << "][" << j << "]:";   //arr[i][j]=i+j;
+            cin >> arr[i][j];
         }
     }
-    for (int i = 0; i < 4; i++)
+
+    for (int i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < 5; j++)
         {
             cout << arr[i][j] << " ";
         }

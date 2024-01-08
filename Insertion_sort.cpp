@@ -8,6 +8,7 @@ int main()
     int temp;
     int num;
     int arr[30];
+
     cout << "Enter the number of the array : ";
     cin >> num;
     cout << "Enter the elements : ";
@@ -16,6 +17,7 @@ int main()
     {
         cin >> arr[i];
     }
+    
     for (int i = 1; i <= num - 1; i++)
     {
         temp = arr[i];
