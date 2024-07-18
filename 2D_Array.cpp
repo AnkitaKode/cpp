@@ -10,7 +10,7 @@ int main()
     {
         for (int j = 0; j < 5; j++)
         {
-            cout << "Enter the number at [" << i << "][" << j << "]:";   //arr[i][j]=i+j;
+            cout << "Enter the number at [" << i << "][" << j << "]:"; // arr[i][j]=i+j;
             cin >> arr[i][j];
         }
     }
