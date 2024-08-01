@@ -13,7 +13,7 @@ public:
     {
         name = "ankita";
         age = 0;
-        cout << "constructor is called when u creates an objects of human " << endl;
+        cout << "Constructor is called when u creates an objects of human " << endl;
     }
     void display()
     {
