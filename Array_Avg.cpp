@@ -3,7 +3,7 @@
 int main()
 {
     int n, i;
-    float sum=0;
+    float sum = 0;
 
     printf("Enter the number of elements: ");
     scanf("%d", &n);
