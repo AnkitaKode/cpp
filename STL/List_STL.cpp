@@ -5,6 +5,7 @@
 using namespace std;
 
 void print_list(list<int> &ll)
+
 {
     for (list<int>::iterator it = ll.begin(); it != ll.end(); ++it)
         cout << *it << "\t";
