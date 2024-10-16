@@ -15,7 +15,7 @@ int main()
 
    else
    {
-      cout << "memory not allocated";
+      cout << "memory not allocated.";
    }
 
    return 0;
