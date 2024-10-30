@@ -1,3 +1,5 @@
+// Given a list of jobs, each with a deadline and a profit, the goal is to maximize the total profit by scheduling jobs so that each job is completed by its deadline. Assume only one job can be completed at each time slot before the maximum deadline. How does the job_sequencing_with_deadlines function in the provided code approach this problem, and why does it use the qsort function?
+
 #include <stdio.h>
 #include <stdlib.h>
 
