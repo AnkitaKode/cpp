@@ -53,6 +53,7 @@ void job_sequencing_with_deadlines(struct Job *jobs, int n)
     printf("Total profit: %d\n", total_profit);
 
     free(schedule);
+    
 }
 
 int main()
