@@ -37,5 +37,6 @@ int main()
 
     search(pat1, txt1);
 
+
     return 0;
 }
