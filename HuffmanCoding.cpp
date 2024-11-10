@@ -81,6 +81,7 @@ void minHeapify(struct MinHeap *minHeap, int idx)
                         &minHeap->array[idx]);
         minHeapify(minHeap, smallest);
     }
+    
 }
 
 int isSizeOne(struct MinHeap *minHeap)
