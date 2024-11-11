@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+//Kruskal's Algorithm
 
 class DSU
 {
