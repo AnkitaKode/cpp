@@ -23,7 +23,7 @@ void printSolution(int sol[N][N])
 
 int solveKT()
 {
-    int sol[N][N]
+    int sol[N][N];
 
     for (int x = 0; x < N; x++)
         for (int y = 0; y < N; y++)
