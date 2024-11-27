@@ -81,7 +81,7 @@ vector<int> search(string &pat, string &txt)
 
 int main()
 {
-    string txt = "aabaaabcaadaabaaba";
+    string txt = "aabaabcaadaabaaba";
     string pat = "aaba";
 
     vector<int> res = search(pat, txt);
