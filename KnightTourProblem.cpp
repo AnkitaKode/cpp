@@ -18,7 +18,7 @@ void printSolution(int sol[N][N])
         for (int y = 0; y < N; y++)
             cout << " " << setw(2) << sol[x][y] << " ";
         cout << endl;
-    }
+    } 
 }
 
 int solveKT()
