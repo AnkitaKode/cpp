@@ -2,6 +2,7 @@
 using namespace std;
 
 #define V 4
+
 #define INF 99999
 
 void printSolution(int dist[][V]);
