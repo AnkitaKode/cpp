@@ -3,17 +3,7 @@ using namespace std;
 
 #define V 5
 
-int minKey(vector<int> &key, vector<bool> &mstSet)
-{
 
-    int min = INT_MAX, min_index;
-
-    for (int v = 0; v < V; v++)
-        if (mstSet[v] == false && key[v] < min)
-            min = key[v], min_index = v;
-
-    return min_index;
-}
 
 void printMST(vector<int> &parent, vector<vector<int>> &graph)
 {
