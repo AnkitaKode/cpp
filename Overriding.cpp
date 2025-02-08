@@ -9,6 +9,7 @@ cout<<"Eating...";
 class Dog: public Animal    
 {    
  public:  
+ 
  void eat()    
     {    
        cout<<"Eating bread...";    
